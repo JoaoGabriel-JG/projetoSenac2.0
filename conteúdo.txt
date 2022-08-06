@@ -1,0 +1,38 @@
+[INICIO]
+
+[FOTO]
+
+*Nome das duas empresas*
+
+-------------------------------------------------------------
+
+Objetivo
+
+lorem
+
+[Manutenção de Infra]
+[Manutenção de Hardwares]
+[Manutenção de Softwares]
+-------------------------------------------------------------
+
+Infra
+
+lorem
+
+Hardware
+
+lorem
+
+Software
+
+lorem
+
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
