@@ -212,6 +212,10 @@ header .menu ul li a:hover {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 var(--azulManeiro);
+    transition: 0.4s ease;
+    cursor: pointer;
 }
 
 #empresasSobre .container .card img {
@@ -247,4 +251,36 @@ header .menu ul li a:hover {
     border: none;
     color: var(--brancoPadrao);
     background-color: var(--azulManeiro);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#empresasSobre .container .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
 }
